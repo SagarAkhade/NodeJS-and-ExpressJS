@@ -5,6 +5,7 @@
         npm i nodemon -g
     - And now to use the nodemon use below command in terminal
         nodemon nameOfFile.js 
+        nodemon completePath\nameOfFile.js 
     - Now whenever we done any changes in file and just save it the nodemon automatically restart the server
 
 * Interview Question:
