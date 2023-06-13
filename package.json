@@ -1,0 +1,22 @@
+{
+  "name": "nodejs_tutorials",
+  "version": "1.0.0",
+  "description": "a node js tutorial",
+  "main": "01_first_program_with_node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "code",
+    "step",
+    "by",
+    "step"
+  ],
+  "author": "Sagar Akhade",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "nodemon": "^2.0.22",
+    "simple-node-logger": "^21.8.12"
+  }
+}
