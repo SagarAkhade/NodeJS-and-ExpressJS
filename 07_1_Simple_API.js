@@ -20,7 +20,7 @@
 const data = require('./07_2_Simple_API_data');
 const http = require('http');
 http.createServer((req, resp) => {
-    resp.writeHead(200, {'Content-Type': 'application/json'});
+    resp.writeHead(200, { 'Content-Type': 'application/json' });
     resp.write(JSON.stringify(data));
     resp.end();
 }).listen(5000)
