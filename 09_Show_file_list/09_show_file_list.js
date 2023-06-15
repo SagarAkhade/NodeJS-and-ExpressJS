@@ -47,5 +47,3 @@ fs.readdir(dirPath, (err, files) => {
 // File name is : hello2.txt
 // File name is : hello3.txt
 // File name is : hello4.txt
-
-
