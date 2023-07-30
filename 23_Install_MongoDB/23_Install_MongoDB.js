@@ -23,7 +23,7 @@
     - We need to set the environment to use MongoDB commands in cmd
     - Go to search bar of windows type environment variables and open Edit System Environment Variables
     - From there add the path as done in above video
-    - Now press the below command which shows that MongDB is installed successfully
+    - Now type the below command which shows that MongDB is installed successfully
         mongosh
     - Now we have open MongDB Compass which is GUI i.e. Graphical User Interface
     - In MongoDB Compass we have connected the deafult database by clicking on Connect option
@@ -32,7 +32,7 @@
         first type : mongosh
         then type : show dbs -> will show all the databases
     - We can also delete these databases
-    - We can also create the new database by clcicking on Create Database option
+    - We can also create the new database by clicking on Create Database option
     - We have created the simple database, it asked for database name : code-step-by-step [any name]
        then asked for collection name : node-tut [any name] and then clicking on create button
        our new database is created successfully
