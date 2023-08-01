@@ -60,4 +60,9 @@
             acknowledged: true,
             deletedCount: 1
         }
+    - To delete mutliple data at once we do like this below
+        db.collectionName.deleteMany({keyWhoseDataToBeDeleted : valueWhoseDataToBeDeleted})
+            keyWhoseDataToBeDeleted -> any columns key : value pair whose data to delete
+        Ex : db.products.deleteMany({brand:'apple'})  -> all the data with brand apple will be deleted
+
 */
