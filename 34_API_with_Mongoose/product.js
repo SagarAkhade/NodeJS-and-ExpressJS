@@ -1,4 +1,4 @@
-/* This products file we are using the 34_Post_API_with_Mongoose file */
+/* This products file we are using the 34_API_with_Mongoose file */
 
 const mongoose = require('mongoose');
 const productSchema = new mongoose.Schema({
